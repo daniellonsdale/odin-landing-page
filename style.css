@@ -142,3 +142,34 @@ a{
     width: 150px;
     flex: 1;
 }
+
+/* Customer quote css */
+
+.customer-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author{
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 600;
+    align-self: flex-end;
+}
