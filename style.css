@@ -173,3 +173,38 @@ a{
     font-weight: 600;
     align-self: flex-end;
 }
+
+/* Call to action */
+
+.call-to-action{
+    padding: 100px 300px;
+}
+
+.call-to-action-box{
+    background-color: #3882F6;
+    padding: 50px 75px;
+    border-radius: 15px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-left .call-to-action-header{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.call-to-action-left .call-to-action-text{
+    font-size: 12px;
+    font-weight: 200;
+    color: #E5E7EB;
+}
+
+.call-to-action button{
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
