@@ -208,3 +208,18 @@ a{
     color: #F9FAF8;
     font-weight: 700;
 }
+
+/* Footer */
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-text{
+    color: #F9FAF8;
+    font-weight: 100;
+}
